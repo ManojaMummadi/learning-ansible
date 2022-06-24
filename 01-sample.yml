@@ -1,0 +1,10 @@
+- name: My first play book
+  hosts: all
+  tasks:
+    - name: Fruit Lovers
+      ansible.builtin.debug:
+        msg: Mango
+    - name : Vegetable Lovers
+      debug:
+        msg: Brinjal
+
