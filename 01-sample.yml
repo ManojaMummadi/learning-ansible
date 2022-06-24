@@ -1,5 +1,5 @@
 - name: My first play book
-  hosts: all
+  hosts: localhost
   tasks:
     - name: Fruit Lovers
       ansible.builtin.debug:
